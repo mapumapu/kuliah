@@ -1,0 +1,5 @@
+print('===========================')
+print('Nama     : Aditya')
+print('Kelas    : 19.1A.03')
+print('Jurusan  : Sistem Informasi')
+print('===========================')
