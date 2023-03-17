@@ -1,1 +1,5 @@
-print('saya sedang belajar bahasa pemrograman python')
+print('===================================')
+print('Nama     : M. Aditya Prasetya Utama')
+print('Kelas    : 19.1A.03')
+print('Jurusan  : Sistem Informasi')
+print('===================================')
