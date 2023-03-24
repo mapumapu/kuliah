@@ -1,0 +1,99 @@
+=====================================================================
+1. Diketahui P=10, Q=15 dan R=5.
+Diberikan Algoritma P=Q,Q=R, mk Nilai P,Q,R sekarang?
+
+P = 10
+Q = 15
+R = 5
+
+P = Q (P = 15 Q = 15 R = 5)
+Q = R (P = 15 Q = 5 R = 5)
+
+P = 15
+Q = 5
+R = 5
+
+=====================================================================
+2. Diketahui Algoritma P=11, P=P+1 dan Q = P
+Berapakan Nilai P dan Q ?
+
+P = 11
+
+P = P + 1 = 11 + 1 = 12
+Q = 12 karena P sudah berubah nilainya
+
+P = 12
+Q = 12
+
+=====================================================================
+3. Diketahui 3 variabel peubah P,Q dan R. Agar isi Q ditaruh di P, isi
+R ditaruh di Q dan isi P ditaruh di R, maka Algoritma yang dapat
+ditulis adalah :
+
+misal
+T = 0 (temporary variable)
+P = 1
+Q = 2
+R = 3
+
+T diisi nilai P jadi (T = 1 P = 0 Q = 2 R = 3) 
+P diisi nilai Q jadi (T = 1 P = 2 Q = 0 R = 3)
+Q diisi nilai R jadi (T = 1 P = 2 Q = 3 R = 0)
+R diisi nilai T jadi (T = 0 P = 2 Q = 3 R = 1)
+jadi 
+P = 2(Q = 2)
+Q = 3(R = 3)
+R = 1(P = 1)
+
+T = P (T = 1 P = 0 Q = 2 R = 3)
+P = Q (T = 1 P = 2 Q = 0 R = 3)
+Q = R (T = 1 P = 2 Q = 3 R = 0)
+R = T (T = 0 P = 2 Q = 3 R = 1)
+
+P = 2(Q = 2)
+Q = 3(R = 3)
+R = 1(P = 1)
+
+=====================================================================
+4. Diketahui 2 peubah K = 15 dan L = 25. Buat Algoritma untuk
+mempertukarkan isi K dan L. :
+T = 0 (temporary variable)
+K = 15
+L = 25
+
+T diisi nilai K jadi (T = 15 K = 0 L = 25)
+K diisi nilai L jadi (T = 15 K = 25 L = 0)
+L diisi nilai T jadi (T = 0 K = 25 L = 15)
+jadi K = 25 dan L = 15
+
+T = K (T = 15 K = 0 L = 25)
+K = L (K = 25 L = 0 T = 15)
+L = T (K = 25 L = 15 T = 0)
+
+=====================================================================
+5. Algoritma Pertukaran Isi Bejana
+
+Bejana A berisi Air Merah
+Bejana B berisi Air Biru
+Bejana C kosong
+
+Bejana C yang kosong diisi Air Merah Bejana A
+Bejana A kosong
+Bejana C berisi Air Merah dari Bejana A
+
+Bejana A yang kosong diisi Air Biru Bejana B
+Bejana B Kosong
+Bejana A berisi Air Biru dari Bejana B
+
+Bejana B yang kosong diisi Air Merah Bejana C
+Bejana C kosong
+Bejana B berisi Air Merah dari Bejana C
+
+Bejana A berisi Air Biru
+Bejana B berisi Air Merah
+Bejana C kosong
+
+Bejana C = Bejana A (C = A B = B A = 0)
+Bejana A = Bejana B (A = B C = A B = 0)
+Bejana B = Bejana C (B = C A = B C = 0)
+=====================================================================
