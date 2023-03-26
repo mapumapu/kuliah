@@ -2,13 +2,7 @@
 # 1. Berapa biaya yang akan dikeluarkan untuk membeli telur
 # 2. Berapa sisa uang setelah membeli telur dan naik angkot
 
-# Dengan function input()
-# brt = int(input('Berat Telur(dalam Kilogram) : '))
-# hrg = int(input('Harga Telur(per Kilogram) : '))
-# ongkos = int(input('Biaya Transportasi(Pulang Pergi) : '))
-# uang = int(input('Uang yang dibawa : '))
-
-# Input manual
+# Implementasi dengan Python
 # Berat telur perkilo
 brt = 5
 
