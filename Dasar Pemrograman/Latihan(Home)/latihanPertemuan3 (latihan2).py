@@ -1,8 +1,8 @@
-print('{:^100}'.format('TOKO MAINAN'))
-print('{:^100}'.format('======================'))
+print('{:^62}'.format('TOKO MAINAN'))
+print('{:^62}'.format('======================'))
 
-namaPembeli = str(input('Nama Pembeli : '))
-kodeMainan = str(input('Kode Mainan : '))
+namaPembeli = input('Nama Pembeli : ')
+kodeMainan = input('Kode Mainan : ')
 harga = int(input('Harga : '))
 jumlahBeli = int(input('Jumlah Beli : '))
 total = harga * jumlahBeli
