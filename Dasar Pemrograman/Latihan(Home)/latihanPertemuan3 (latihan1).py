@@ -15,7 +15,7 @@ print(c and d)
 e = 2
 f = 2
 
-print(e>> f)
+print(e >> f)
 
 # Operator Identitas
 g = 5
