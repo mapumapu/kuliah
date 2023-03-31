@@ -70,6 +70,21 @@ T = K (T = 15 K = 0 L = 25)
 K = L (K = 25 L = 0 T = 15)
 L = T (K = 25 L = 15 T = 0)
 
+# Another great logic
+K = 15
+L = 25
+M = K - L
+M = 10
+K = K + M = 15 + 10 = 25
+L = L - M = 25 - 10 = 15
+
+# Another great great logic
+K = 15
+L = 25
+M = K
+K = L
+L = M
+
 =====================================================================
 5. Algoritma Pertukaran Isi Bejana
 
@@ -97,3 +112,30 @@ Bejana C = Bejana A (C = A B = B A = 0)
 Bejana A = Bejana B (A = B C = A B = 0)
 Bejana B = Bejana C (B = C A = B C = 0)
 =====================================================================
+
+petani
+kambing
+anjing
+rumput
+
+petani harus membawa semua ke sebrang kali tanpa kehilangan satupun kroni2nya
+
+ingat!
+kambing makan rumput
+anjing makan kambing
+
+petani bawa anjing
+kambing makan rumput
+petani balik
+petani bawa kambing 
+
+petani bawa anjing dan rumput
+petani balik
+bawa kambing
+
+petani bawa kambing
+petani bawa rumput
+petani bawa kambing balik
+petani bawa anjing
+petani bawa kambing
+
