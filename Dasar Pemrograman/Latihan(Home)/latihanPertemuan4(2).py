@@ -16,6 +16,7 @@ elif jurusan == 'lmp' :
 
 else :
   print('Jurusan tidak tersedia')
+  exit()
   
 jumlahBeli = int(input('Jumlah Beli : '))
 potongan = 0
@@ -31,7 +32,7 @@ print(nomorHandphone)
 print((jurusan).upper())
 print(kotaTujuan)
 print(harga)
-print(jumlahBeli)
+print(jumlahBeli) 
 
 print('======================')
 print(potongan)
