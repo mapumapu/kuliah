@@ -139,3 +139,31 @@ petani bawa kambing balik
 petani bawa anjing
 petani bawa kambing
 
+
+A = 3
+B = 5
+
+Algoritma
+
+IF A > B THEN
+  C <- A * B
+
+ELSE 
+  C <- A + B
+
+D <- C * C
+
+Penjabaran 
+
+A > B ? NO
+C <- A + B
+C <- 3 + 5
+C <- 8
+
+D <- C * C
+D <- 8 * 8
+D <- 64
+
+MAKA
+C = 8
+D = 64
