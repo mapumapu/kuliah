@@ -12,8 +12,9 @@ elif kodeProdi == 'sia' :
   
 else :
   print('Input Kode Jurusan Salah')
+  exit()
 
-  
+
 if kodeProdi == 'si' or kodeProdi == 'sia' :
   print('==================================')
   print('Nama               : ', nama)

@@ -1,18 +1,12 @@
-# input total harga pembelian
-totalHarga = int(input('Masukkan Total harga pembelian : '))
 
-# 
-if totalHarga > 200000 :
-  potonganHarga = 0.2 * totalHarga
-  print('Anda mendapatkan potongan harga sebesar 20%')
+height = int(input("Enter the height"))
 
-else :
-  potonganHarga = 0
-  print('Anda tidak mendapatkan potongan harga')
-
-totalBayar = totalHarga - potonganHarga
-
-print('Total Pembayaran : ', totalBayar)
+for i in range(1, height + 1):
+  
+    print(" " * (height - i), end='')
+    
+    print("* " * i)
+    
 
 
 
