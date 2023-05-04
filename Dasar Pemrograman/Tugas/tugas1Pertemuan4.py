@@ -3,7 +3,7 @@ print('')
 nama = input('        Nama Karyawan : ')
 golongan = input      ('          Golongan Jabatan(1/2/3)  : ')
 pendidikan = input    ('          Pendidikan(SMA/D1/D3/S1) : ').lower()
-jamKerja = float(input('          Jumlah Jam Kerja         : '))
+jamKerja = float(input('          Jumlah Jam Kerja(Jam)    : '))
 gaji = 300000
 
 
@@ -16,6 +16,10 @@ elif golongan == '2' :
 
 elif golongan == '3' :
   tunjanganJabatan = 0.15 * gaji
+
+else :
+  print('Input golongan salah!')
+  exit()
   
 
 # Tunjangan Pendidikan
@@ -30,7 +34,11 @@ elif pendidikan == 'd3' :
   
 elif pendidikan == 's1' : 
   tunjanganPendidikan = 0.3 * gaji
-  
+
+else :
+  print('Input pendidikan salah!')
+  exit()
+
 
 # Lembur
 if jamKerja > 8 :
